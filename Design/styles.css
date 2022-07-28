@@ -1,0 +1,136 @@
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 0;
+    color: white;
+    background: url(img/Ellipse\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #01003D;
+
+}
+
+
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+.navbtn {
+    border: none;
+    width: 126px;
+    height: 29px;
+    background: #9191DC;
+    border-radius: 20px;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+.nav-items li {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 130px;
+}
+
+.nav-items li:last-of-type(1) {
+    margin: 0;
+}
+
+.nav-items li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.header-container {
+    background: url(img/Ellipse\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+
+
+    width: 1500px;
+    height: 800px;
+    /* left: calc(50% - 576px/2 + 720px); */
+    /* top: 333px; */
+
+    /* background: rgba(170, 217, 217, 0.8); */
+    /* filter: blur(304px); */
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 240px;
+
+}
+
+.hero-container h1 {
+    width: 500px;
+    height: 262px;
+    left: calc(50% - 500px/2 - 282px);
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 100px;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.hero-img {
+    margin-left: 300px;
+    width: 500px;
+    height: 500px;
+    left: calc(50% - 525px/2 + 270.5px);
+    top: 256px;
+}
+
+.btn {
+    position: relative;
+    width:0%;
+    height: 0%;
+    top: 197px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-1 {
+    width: 255px;
+    height: 48px;
+
+    background: #9191DC;
+    border-radius: 83px;
+    border: 1px solid #9191DC;
+}
+
+.btn-2 {
+    width: 255px;
+    height: 48px;
+    border-radius: 83px;
+    left: 353px;
+    background-color: #01003D;
+    border: 1px solid #9DD7D8;
+    color: #9DD7D8;
+}
