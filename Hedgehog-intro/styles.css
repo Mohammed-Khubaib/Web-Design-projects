@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+:root {
+
+--Soft-blue: hsl(215,51%,70%);
+--Cyan: hsl(178,100%,50%);
+--main-bg: hsl(217,54%,11%);
+--card-bg: hsl(216,50%,16%);
+--line: hsl(215,32%,27%);
+--White: hsl(0,0%,100%);
+
+}
+
+body{
+    font-family: "Outfit" ,sans-serif;
+    font-size: 18px;
+    background-color:var(--main-bg);
+    display: flex;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card {
+    position: relative;
+    width: 450px;
+    background-color: var(--card-bg);
+    color: var(--Soft-blue);
+    padding: 25px 25px;
+    border-radius: 2% ;
+    font-weight: 300;
+    line-height: 26px;
+    margin:50px auto;
+    border: 8px solid rgba(102, 0, 150, 0.806);
+    color: red;
+    box-shadow: 5px 5px ;
+
+}
+
+.card h2 {
+    font-weight: 600;
+    color: var(--White);
+    font-size: 22px;
+    line-height: 28px;
+    margin: 20px 0 10px 0 ;
+}
+
+.card p{
+    padding-left: 160px;
+    color: rgb(244, 190, 39);
+}
+.card p:hover{
+    color: rgb(255, 115, 0)
+    /* color: var(--Cyan) */
+
+}
+.Intro{
+    color: chartreuse;
+}
+.card h2:hover {
+ color: orangered
+
+}
+.card h2 {
+    color: var(--Cyan)
+}
+
+
+.my-card {
+    width: 100% ;
+    border: 4px solid rgb(95, 48, 235);
+    border-radius:20px ;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin : 15px 0;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 20px;
+}
+.github , .insta,.twitter ,.eye{
+    width: 80%;
+    /* display: flex; */
+    /* align-items: center; */
+}
+.socials{
+    /* margin-right: 500px; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding-left: 50px ; */
+}
+
+.img-overlay{
+    background-color: rgb(30, 30, 89);
+    border-radius:10px ;
+    position :absolute;
+    height: 400px;
+    width: 400px;
+    top: 25px;
+    left: 25px;
+    border-radius: 2%;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-overlay:hover{
+    opacity: 0;
+    transition: 1s;
+}
+
+.my-img {
+    width: 70px;
+    margin-right: 20px;
+    border-radius: 20%;
+    border: 4px solid rgb(217, 207, 248);
+}
+.twitter{
+    width: 90px;
+    border-radius: 20%;
+
+}
+
+.creator {
+  display :flex;
+  align-items: center ;  
+  background-color: rgb(10, 32, 63);
+  border-radius: 10%;
+}
+
+.fn{
+
+    color: rgb(255, 68, 0)
+}
+.fn{
+    /* color: rgb(255, 115, 0) */
+    animation: khu 10s infinite;
+}
+
+.ln{
+    color: rgb(255, 115, 0)
+}
+.ln{
+    animation: khu1 15s infinite;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@keyframes khu{
+     0%{
+         opacity: 0;
+     }
+     10%{
+         opacity: 1;
+     }
+     20%{
+         opacity: 0;
+     }
+}
+
+@keyframes khu1{
+     20%{
+         opacity: 0;
+     }
+     30%{
+         opacity: 1;
+     }
+     40%{
+         opacity: 0;
+     }
+}
+@keyframes khu2{
+     20%{
+         opacity: 0;
+     }
+     30%{
+         opacity: 1;
+     }
+     40%{
+         opacity: 0;
+     }
+}
+
